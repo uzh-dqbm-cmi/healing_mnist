@@ -106,7 +106,7 @@ More convolutional and/or fully connected layers were added to the model but the
 Another approach was to downsize the image between the convolutional layers not via the stride parameter in the convolutional layers but by adding a pooling layer between the convolutional layers and setting the stride to 1 for the convolutional layers. 
 
 ### Regularization layers
-Since increasing the complexity of the model did not improve the model performance, one approach could be to introduce more regularization layers such as batch normalization layers and dropout layers. Applying dropout layers with dropout probability 
+Since increasing the complexity of the model did not improve the model performance, one approach could be to introduce more regularization layers such as batch normalization layers and dropout layers. Applying dropout layers with dropout probability of 0.5 improved the performance of the more complex model with respect to both loss function and visual reconstruction. 
 
 
 ## Performance of 2 selected improved convolutional autoencoders
